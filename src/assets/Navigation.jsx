@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import home from '../assets/icons8-home.svg'
+import work from '../assets/icons8-work-50.png'
 
 
 
@@ -11,7 +12,7 @@ function NavigationBar() {
     }
     const items = [
         {img : home, name : "Home"},
-        {img : home, name : "Work"},
+        {img : work, name : "Work"},
         {img : home, name : "About"},
         {img : home, name : "Message"},
     ]
