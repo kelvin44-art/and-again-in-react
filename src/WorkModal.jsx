@@ -3,7 +3,7 @@ const WorkModal = () =>{
     return(
         <>
          {
-            data ? (<section className="h-96 w-3/4 md:w-[30%] border-2 pt-2 pl-4 flex flex-col gap-3">
+            data ? (<section className="h-96 w-3/4 md:w-[30%] border-2 pt-2 pl-4  pr-4 flex flex-col gap-3">
                 <Project/>
                 <Project/>
                 <Project/>
@@ -25,10 +25,13 @@ const Project = () =>{
             <div className="h-[40px] w-[12%] rounded-md font-bold text-white bg-teal-700  border flex items-center justify-center">
                 TY
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between w-full">
                 <div className="">
                     <p className="font-bold text-sm">TinyWins</p>
-                    <p className="text-gray-400 text-xs">Creative Designer <span>Identity</span></p>
+                    <ul className="text-gray-400 text-xs flex gap-1">
+                        <li>Creative Designer</li>
+                        <li>Identity</li>
+                    </ul>
                 </div>
                 <span className="text-gray-400 text-xs">2026</span>
             </div>
